@@ -36,18 +36,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void translateLeft() {
-        arshadImage.animate().translationXBy(1500).setDuration(2000);
+        arshadImage.animate().translationXBy(1600).setDuration(2000);
     }
 
     public void translateRight() {
-        arshadImage.animate().translationXBy(-1500).setDuration(2000);
+        arshadImage.animate().translationXBy(-1600).setDuration(2000);
     }
 
     public  void translateUp() {
-        arshadImage.animate().translationYBy(1500).setDuration(2000);
+        arshadImage.animate().translationYBy(1600).setDuration(2000);
     }
 
     public void translateDown() {
-        arshadImage.animate().translationYBy(-1500).setDuration(2000);
+        arshadImage.animate().translationYBy(-1800).setDuration(2000);
     }
 }
