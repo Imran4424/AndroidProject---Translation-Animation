@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void imagePressed(View v) {
         int sleep = 10000;
         arshadImage.animate().translationXBy(1500).setDuration(2000);
-        while(sleep < 0) {
+        while(sleep > 0) {
             sleep--;
         }
         arshadImage.animate().translationXBy(-1500).setDuration(2000);
