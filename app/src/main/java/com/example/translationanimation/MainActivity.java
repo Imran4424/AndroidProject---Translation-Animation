@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         translateUp();
         SystemClock.sleep(2200);
         translateDown();
+        SystemClock.sleep(2200);
+        translateRight();
     }
 
     public void translateLeft() {
