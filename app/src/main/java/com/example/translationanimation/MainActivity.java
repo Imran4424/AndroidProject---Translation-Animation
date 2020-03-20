@@ -3,6 +3,7 @@ package com.example.translationanimation;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void imagePressed(View v) {
         arshadImage.animate().translationXBy(1500).setDuration(2000);
-        sleep()
+        SystemClock.sleep(2200);
         arshadImage.animate().translationXBy(-1500).setDuration(2000);
     }
 }
