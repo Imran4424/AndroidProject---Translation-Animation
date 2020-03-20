@@ -18,11 +18,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void imagePressed(View v) {
-        int sleep = 10000;
+        
+
+    }
+
+    public void translateLeft() {
         arshadImage.animate().translationXBy(1500).setDuration(2000);
-        while(sleep > 0) {
-            sleep--;
-        }
+    }
+
+    public void translateRight() {
         arshadImage.animate().translationXBy(-1500).setDuration(2000);
     }
 }
