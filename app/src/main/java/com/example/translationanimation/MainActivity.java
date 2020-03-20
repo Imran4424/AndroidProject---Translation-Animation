@@ -13,9 +13,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        arshadImage = (ImageView) findViewById(R.id.imageViewArshad);
     }
 
     public void imagePressed(View v) {
-
+        
     }
 }
