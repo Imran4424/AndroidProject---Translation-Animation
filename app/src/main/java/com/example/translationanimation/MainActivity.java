@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void translateLeft() {
         arshadImage.animate().translationXBy(1800).setDuration(2000);
+        
     }
 
     public void translateRight() {
