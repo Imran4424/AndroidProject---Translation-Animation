@@ -30,4 +30,12 @@ public class MainActivity extends AppCompatActivity {
     public void translateRight() {
         arshadImage.animate().translationXBy(-1500).setDuration(2000);
     }
+
+    public  void translateUp() {
+        arshadImage.animate().translationYBy(1500).setDuration(2000);
+    }
+
+    public void translateDown() {
+        arshadImage.animate().translationYBy(-1500).setDuration(2000);
+    }
 }
