@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void imagePressed(View v) {
         translateLeft();
-        SystemClock.sleep(2000);
+        SystemClock.sleep(2200);
         translateRight();
     }
 
