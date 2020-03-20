@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void imagePressed(View v) {
-        
+        arshadImage.animate().translationXBy(1000).setDuration(2000);
     }
 }
